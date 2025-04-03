@@ -1,4 +1,4 @@
-module aliSms
+module github.com/luji3120346/aliSms
 
 go 1.22.0
 
