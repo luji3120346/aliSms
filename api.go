@@ -1,4 +1,4 @@
-package aliSmsApi
+package aliSms
 
 import (
 	"fmt"
