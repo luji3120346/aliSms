@@ -10,6 +10,7 @@ import (
 	"github.com/alibabacloud-go/tea/tea"
 )
 
+// 这是测试二班
 type AliSms struct {
 	Client *dysmsapi20170525.Client
 }
