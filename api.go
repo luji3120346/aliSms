@@ -1,4 +1,4 @@
-package aliSms
+package github.com/luji3120346/aliSms
 
 import (
 	"fmt"
