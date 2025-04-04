@@ -46,7 +46,7 @@ func (c *AliSms) CreatClient(keyId string, keySecret string) error {
 }
 
 // SendMsm 发送短信
-func (c *AliSms) SendMsm(info SendSmsConfig) (SendSmsReceipt, error) {
+func (c *AliSms) SendSms(info SendSmsConfig) (SendSmsReceipt, error) {
 	sendSmsReceipt := SendSmsReceipt{}
 	if c.Client == nil {
 		return sendSmsReceipt, fmt.Errorf("短信客户端未初始化，请先调用 CreatClient 方法")
